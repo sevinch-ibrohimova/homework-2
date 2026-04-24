@@ -1,7 +1,7 @@
 package main
 
 import (
-	"alifmobi/internal/commission"
+	"alifmobi/task1/internal/commission"
 	"fmt"
 )
 
@@ -10,7 +10,7 @@ func main() {
 	var cardType int
 	fmt.Print("Введите сумму: ")
 	fmt.Scan(&summa)
-	
+
 	if summa < 500 || summa > 15000000 {
 		fmt.Println("Ошибка: лимит от 500 до 15 000 000 сум")
 		return
